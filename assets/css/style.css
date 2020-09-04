@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&display=swap);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+button,
+input {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+section {
+  height: 100vh;
+}
+label {
+  display: block;
+  padding: 10px 0;
+}
+.content {
+  max-width: 400px;
+  height: 400px;
+  border: 2px solid #222;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+}
+.content form {
+  margin: 0 auto;
+}
+input {
+  max-width: 300px;
+  padding: 16px 12px;
+  border-radius: 4px;
+  font-size: 22px;
+}
+.btn {
+  display: block;
+  border: none;
+  outline: 0;
+  background: #9600ff;
+  color: #fff;
+  transition: all 0.3s;
+  padding: 12px 16px;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.btn:focus,
+.btn:hover {
+  box-shadow: 0 0 0 4px rgba(150, 0, 255, 0.3);
+  transform: scale(1.05);
+}
+.invalido {
+  color: red;
+  display: block;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 400px) {
+  .content {
+    margin: 20px 20px;
+  }
+}
