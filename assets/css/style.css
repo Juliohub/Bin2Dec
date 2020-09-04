@@ -37,14 +37,21 @@ label {
 .content form {
   margin: 0 auto;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
 input {
-  max-width: 300px;
   padding: 16px 12px;
   border-radius: 4px;
   font-size: 22px;
   border-color: #9600ff;
   outline: none;
   background: #eee;
+  max-width: 100%;
 }
 
 #binario {
@@ -58,6 +65,7 @@ input {
 .btn {
   display: block;
   border: none;
+  max-width: 150px;
   outline: 0;
   background: #9600ff;
   color: #fff;
@@ -78,8 +86,17 @@ input {
   padding: 10px 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .content {
     margin: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .content {
+    margin: 10px 10px;
+  }
+  .title {
+    font-size: 2.5rem;
   }
 }

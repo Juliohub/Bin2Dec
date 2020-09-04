@@ -13,7 +13,6 @@ function binaryForDecimal(n) {
     if (n.substr(i, 1) !== '0' && n.substr(i, 1) !== '1' && n !== '') {
       verificacao = false;
     }
-
     if (verificacao) {
       if (aoBinario > -1) {
         valorFinal =
