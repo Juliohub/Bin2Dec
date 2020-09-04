@@ -11,7 +11,13 @@
 <body>
   <section>
     <div class='content'>
-      <form> <label for="binario">Número em Binário:</label> <input id="binario" type="text" /> <span class="invalido"></span> <label for="resultado">Resultado:</label> <input id="resultado" type="text" disabled /> <button class='btn'>Converter</button></form>
+      <form>
+        <label for="binario">Número em Binário:</label>
+        <input id="binario" type="text" autocomplete="off" />
+        <span class="invalido"></span>
+        <label for="resultado">Resultado: (Decimal)</label>
+        <input id="resultado" type="text" disabled />
+        <button class='btn'>Converter</button></form>
     </div>
   </section>
   <script src='assets/js/script.js'></script>

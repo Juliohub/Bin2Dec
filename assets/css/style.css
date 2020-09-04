@@ -8,6 +8,7 @@ body,
 button,
 input {
   font-family: 'Kumbh Sans', sans-serif;
+  background: #333;
 }
 section {
   height: 100vh;
@@ -19,12 +20,13 @@ label {
 .content {
   max-width: 400px;
   height: 400px;
-  border: 2px solid #222;
+  border: 2px solid #9600ff;
   margin: 50px auto;
   display: flex;
   align-items: center;
   padding: 20px;
   border-radius: 12px;
+  background: #fff;
 }
 .content form {
   margin: 0 auto;
@@ -34,6 +36,18 @@ input {
   padding: 16px 12px;
   border-radius: 4px;
   font-size: 22px;
+  border-color: #9600ff;
+  outline: none;
+  background: #eee;
+}
+
+#binario {
+  transition: all 0.3s;
+}
+
+#binario:hover,
+#binario:focus {
+  box-shadow: 0 0 0 4px rgba(150, 0, 255, 0.3);
 }
 .btn {
   display: block;
