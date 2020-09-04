@@ -4,4 +4,4 @@
 <p>Link para Aplicação: <a href="https://juliohub.github.io/Bin2Dec/">Bin2Dec</a></p>
 
 
-<p>Essa Aplicação foi um exercicio que peguei do <a href="https://github.com/florinpop17/app-ideas">App Ideas</a></p>
+<p>Essa Aplicação foi uma ideia que peguei no <a href="https://github.com/florinpop17/app-ideas">App Ideas</a></p>
